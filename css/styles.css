@@ -79,6 +79,63 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+
+
+
+
+#data-manipulation-box {
+  position: relative;
+}
+
+.overlay-half {
+  width: 50%; /* Cada mitad ocupa la mitad del cuadro */
+  height: 100%; /* Ocupa toda la altura del cuadro */
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-end; /* Alinea los iconos hacia abajo */
+  justify-content: center;
+  padding-bottom: 20px; /* Agrega espacio en la parte inferior */
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.left-half {
+  left: 0; /* La mitad izquierda */
+}
+
+.right-half {
+  right: 0; /* La mitad derecha */
+}
+
+.left-half:hover {
+  background-color: rgba(255, 106, 0, 0.147); /* Sombreado amarillo solo en la mitad izquierda */
+}
+
+.right-half:hover {
+  background-color: rgba(0, 13, 255, 0.147); /* Sombreado amarillo solo en la mitad derecha */
+}
+
+.icon-overlay {
+  width: 50;
+  height: 50px;
+  opacity: 0.8;
+  transition: transform 0.3s;
+  z-index: 3;
+}
+
+.icon-overlay:hover {
+  transform: scale(1.4); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+.portfolio-box-caption {
+  position: relative;
+  z-index: 1;
+}
+
+
 *,
 *::before,
 *::after {
