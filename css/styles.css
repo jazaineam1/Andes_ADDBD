@@ -95,7 +95,7 @@
   display: flex;
   align-items: flex-end; /* Alinea los iconos hacia abajo */
   justify-content: center;
-  padding-bottom: 20px; /* Agrega espacio en la parte inferior */
+  padding-bottom: 6px; /* Agrega espacio en la parte inferior */
   transition: background-color 0.3s;
   cursor: pointer;
   text-decoration: none;
@@ -121,9 +121,9 @@
 .icon-overlay {
   width: 50;
   height: 50px;
-  opacity: 0.8;
-  transition: transform 0.3s;
-  z-index: 3;
+  opacity: 0.9;
+  transition: transform 0.35s;
+  z-index: 2;
 }
 
 .icon-overlay:hover {
