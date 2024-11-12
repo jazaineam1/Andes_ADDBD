@@ -26,9 +26,8 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        
-                        
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Temáticas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ejercicios">Ejercicios</a></li> 
                     </ul>
                 </div>
             </div>
@@ -159,7 +158,7 @@
                         </a>
                     </div>
                     
-                  <!--   <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="#" onclick="ejercicios2();" title="Ejercicios 2">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/ejercicios2.jpg" alt="..." />
                             <div class="portfolio-box-caption">
@@ -170,7 +169,7 @@
                     </div>
 
                     
-
+ <!--
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="#" onclick="redirectregresion();" title="Regresión Lineal">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/regresion.jpg" alt="..." />
@@ -289,10 +288,43 @@
                 </div> 
             </div>       
         </div>
-         redireccionamiento-->
+-->
+
+
+        <section id="ejercicios">
+            <div class="container px-4 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-primary mt-5">Ejercicios</h2>
+                        <p class="text-muted mb-5">Esta sección incluye actividades prácticas para reforzar los conceptos aprendidos en el curso de Análisis de Datos y Big Data. Explora cada uno de los ejercicios para poner en práctica tus conocimientos.</p>
+                        <!-- Puedes agregar aquí enlaces o botones que dirijan a ejercicios específicos -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#" onclick="redirecttarea1();" title="Carga de Ejercicio 1">
+                <img class="img-fluid" src="assets/img/portfolio/thumbnails/practica.jpg" alt="..." />
+                <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">Ejercicios</div>
+                    <div class="project-name">Carga de Ejercicios</div>
+                </div>
+            </a>
+        </div>
+
+
+       
+         
 
         
         <script>
+
+            function redirecttarea1() {
+                window.location.href = 'https://forms.gle/KajB5hgonGisG5yu7';
+            }
+
+
+
             function redirectToGoogle() {
                 window.location.href = 'https://colab.research.google.com/github/jazaineam1/Andes_ADDBD/blob/main/Sesion1/M1%20Clase%201%20Colab%20Pensamiento%20algor%C3%ADtmico%20-%20Elementos%20(3).ipynb';
             }
